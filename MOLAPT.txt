@@ -122,7 +122,7 @@
         <a href="#">Servizi</a>
         <a href="#">Contatti</a>
     </nav>
-    <div class="hero">
+    <div class="hero" style="background: url('https://via.placeholder.com/1920x800') no-repeat center center/cover;">
         <h2>Trasforma il tuo corpo, trasforma la tua vita</h2>
     </div>
     <div class="content">
