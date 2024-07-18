@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gianluca Mola - Personal Trainer</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background: #333;
+            color: #fff;
+            padding: 1rem 0;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background: #444;
+        }
+        nav a {
+            color: #fff;
+            padding: 1rem 2rem;
+            text-decoration: none;
+            font-size: 1rem;
+        }
+        nav a:hover {
+            background: #555;
+        }
+        .hero {
+            background: url('https://via.placeholder.com/1920x800') no-repeat center center/cover;
+            height: 70vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: #fff;
+            text-align: center;
+        }
+        .hero h2 {
+            font-size: 3rem;
+            margin: 0;
+        }
+        .content {
+            padding: 2rem;
+        }
+        .content h2 {
+            font-size: 2rem;
+            text-align: center;
+            margin-bottom: 1rem;
+        }
+        .content p {
+            font-size: 1.1rem;
+            line-height: 1.6;
+            margin-bottom: 1rem;
+        }
+        .container {
+            max-width: 800px;
+            margin: 50px auto;
+            padding: 20px;
+            background: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+        }
+        .container h2 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .btn {
+            display: inline-block;
+            background: #0070ba;
+            color: #fff;
+            padding: 10px 20px;
+            text-align: center;
+            text-decoration: none;
+            border-radius: 5px;
+            margin: 10px;
+        }
+        .btn:hover {
+            background: #005c99;
+        }
+        .footer {
+            background: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1rem 0;
+        }
+        .footer p {
+            margin: 0;
+        }
+        @media (max-width: 768px) {
+            .hero h2 {
+                font-size: 2rem;
+            }
+            nav a {
+                padding: 0.5rem 1rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Gianluca Mola</h1>
+        <p>Personal Trainer</p>
+    </header>
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">Chi Sono</a>
+        <a href="#">Servizi</a>
+        <a href="#">Contatti</a>
+    </nav>
+    <div class="hero">
+        <h2>Trasforma il tuo corpo, trasforma la tua vita</h2>
+    </div>
+    <div class="content">
+        <h2>Benvenuti</h2>
+        <p>Ciao! Sono Gianluca Mola, il tuo personal trainer di fiducia. Con anni di esperienza nel settore del fitness, sono qui per aiutarti a raggiungere i tuoi obiettivi di salute e benessere. Che tu voglia perdere peso, aumentare la massa muscolare o semplicemente migliorare la tua forma fisica, posso offrirti un programma di allenamento personalizzato che si adatta alle tue esigenze.</p>
+        <p>Offro una varietà di servizi tra cui allenamenti personalizzati, consulenze nutrizionali e supporto continuo per assicurarmi che tu rimanga motivato e raggiunga i tuoi obiettivi. Contattami oggi per iniziare il tuo viaggio verso una vita più sana e felice!</p>
+    </div>
+    <div class="container">
+        <h2>Acquista il tuo programma personalizzato</h2>
+        <p>Prezzo: 69€</p>
+        <p>Accetto <a href="#">Termini & Condizioni</a></p>
+        <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=YOUR_PAYPAL_BUTTON_ID" class="btn">Paga con PayPal</a>
+        <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_xclick&business=YOUR_PAYPAL_EMAIL&item_name=Programma+Personalizzato&amount=69.00&currency_code=EUR" class="btn">Paga con Carta di Credito</a>
+    </div>
+    <div class="footer">
+        <p>&copy; 2024 Gianluca Mola - Personal Trainer. Tutti i diritti riservati.</p>
+    </div>
+</body>
+</html>
