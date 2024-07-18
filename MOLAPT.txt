@@ -105,6 +105,7 @@
             }
         }
     </style>
+    <script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript"></script>
 </head>
 <body>
     <header>
@@ -131,6 +132,10 @@
         <p>Accetto <a href="#">Termini & Condizioni</a></p>
         <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=YOUR_PAYPAL_BUTTON_ID" class="btn">Paga con PayPal</a>
         <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_xclick&business=YOUR_PAYPAL_EMAIL&item_name=Programma+Personalizzato&amount=69.00&currency_code=EUR" class="btn">Paga con Carta di Credito</a>
+    </div>
+    <div class="container">
+        <h2>Prenota una sessione</h2>
+        <div class="calendly-inline-widget" data-url="https://calendly.com/YOUR_CALENDLY_URL" style="min-width:320px;height:630px;"></div>
     </div>
     <div class="footer">
         <p>&copy; 2024 Gianluca Mola - Personal Trainer. Tutti i diritti riservati.</p>
