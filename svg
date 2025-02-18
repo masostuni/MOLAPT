@@ -1,0 +1,12 @@
+<svg xmlns="w3.org/2000/svg" viewBox="0 0 1024 1024" style="background: black">
+<rect x="0" y="0" width="1024" height="1024" fill="black" />
+<g id="square">
+<rect x="256" y="256" width="128" height="128" fill="white" shape-rendering="crispEdges" />
+</g>
+<g id="quarter-circle">
+<path d="M 384 512 A 128 128 0 0 0 512 384 L 384 384 Z" fill="white" shape-rendering="crispEdges" />
+</g>
+<use href="#quarter-circle" x="0" y="-0" transform="rotate(-90 384 384)" />
+<use href="#quarter-circle" x="0" y="0" transform="translate(384 0) scale(-1,1) translate(-384 0)" />
+
+</svg>
